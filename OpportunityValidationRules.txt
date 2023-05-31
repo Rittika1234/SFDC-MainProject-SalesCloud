@@ -1,0 +1,4 @@
+AND(
+ISPICKVAL(StageName, "Closed Won"),
+NOT(ISBLANK(TEXT( LastActivityDate )))
+)
